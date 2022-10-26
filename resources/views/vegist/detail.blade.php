@@ -10,27 +10,27 @@
         <meta name="keywords" content="organic food theme, vegetables, foof store, eCommerce html template, responsive, electronics store, furniture wood, fashion, furniture, mobile, watches, electronics, computers accessories, toys, jewellery, restaurant accessories"/>
         <meta name="author" content="spacingtech_webify">
         <!-- favicon -->
-        <link rel="shortcut icon" type="image/favicon" href="image/fevicon.png">
+        <link rel="shortcut icon" type="image/favicon" href="{{asset('image/fevicon.png')}}">
         <!-- bootstrap -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
         <!-- simple-line icon -->
-        <link rel="stylesheet" type="text/css" href="css/simple-line-icons.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/simple-line-icons.css')}}">
         <!-- font-awesome icon -->
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/font-awesome.min.css')}}">
         <!-- themify icon -->
-        <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/themify-icons.css')}}">
         <!-- ion icon -->
-        <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/ionicons.min.css')}}">
         <!-- owl slider -->
-        <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/owl.carousel.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/owl.theme.default.min.css')}}">
         <!-- swiper -->
-        <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/swiper.min.css')}}">
         <!-- animation -->
-        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/animate.css')}}">
         <!-- style -->
-        <link rel="stylesheet" type="text/css" href="css/style3.css">
-        <link rel="stylesheet" type="text/css" href="css/responsive3.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/style3.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/responsive3.css')}}">
     </head>
     <body>
         <!-- top notification bar start -->
@@ -98,7 +98,7 @@
                                 <!-- logo start -->
                                 <div class="header-element logo">
                                     <a href="index3.html">
-                                        <img src="image/logo2.png" alt="logo-image" class="img-fluid">
+                                        <img src="{{asset('image/logo2.png')}}" alt="logo-image" class="img-fluid">
                                     </a>
                                 </div>
                                 <!-- logo end -->
@@ -168,73 +168,73 @@
                                                 <ul class="vega-menu">
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image01.jpg" alt="menu-image">
+                                                            <img src="{{asset('image/menu-img/image01.jpg')}}" alt="menu-image">
                                                             <span>Fresh fruits</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image02.jpg" alt="menu-image">
+                                                            <img src="{{asset('image/menu-img/image02.jpg')}}" alt="menu-image">
                                                             <span>Fresh meat</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image03.jpg" alt="menu-image">
+                                                            <img src="{{asset('image/menu-img/image03.jpg')}}" alt="menu-image">
                                                             <span>Fresh vegetable</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image04.jpg" alt="menu-image">
+                                                            <img src="{{asset('image/menu-img/image04.jpg')}}" alt="menu-image">
                                                             <span>Green Searfood</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image05.jpg" alt="manu-image">
+                                                            <img src="{{asset('image/menu-img/image05.jpg')}}" alt="manu-image">
                                                             <span>Organic dryfruit</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image06.jpg" alt="manu-image">
+                                                            <img src="{{asset('image/menu-img/image06.jpg')}}" alt="manu-image">
                                                             <span>Blackberry 100%organic</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image07.jpg" alt="manu-image">
+                                                            <img src="{{asset('image/menu-img/image07.jpg')}}" alt="manu-image">
                                                             <span>Organic juice</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image08.jpg" alt="manu-image">
+                                                            <img src="{{asset('image/menu-img/image08.jpg')}}" alt="manu-image">
                                                             <span>Sea & fresh</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image01.jpg" alt="manu-image">
+                                                            <img src="{{asset('image/menu-img/image01.jpg')}}" alt="manu-image">
                                                             <span>Summer fruit</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image09.jpg" alt="manu-image">
+                                                            <img src="{{asset('image/menu-img/image09.jpg')}}" alt="manu-image">
                                                             <span>Baker's rack</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image10.jpg" alt="manu-image">
+                                                            <img src="{{asset('image/menu-img/image10.jpg')}}" alt="manu-image">
                                                             <span>Dairy & chesse</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
                                                         <a href="product-style-3.html" class="link-title">
-                                                            <img src="image/menu-img/image11.jpg" alt="manu-image">
+                                                            <img src="{{asset('image/menu-img/image11.jpg')}}" alt="manu-image">
                                                             <span>Organic wine</span>
                                                         </a>
                                                     </li>
@@ -387,15 +387,15 @@
                                                     </a>
                                                     <ul class="dropdown-submenu banner-menu collapse" id="collapse-top-banner-menu">
                                                         <li class="menu-banner">
-                                                            <a href="grid-list.html" class="menu-banner-img"><img src="image/menu-banner01.jpg" alt="menu-image" class="img-fluid"></a>
+                                                            <a href="grid-list.html" class="menu-banner-img"><img src="{{asset('image/menu-banner01.jpg')}}" alt="menu-image" class="img-fluid"></a>
                                                             <a href="grid-list.html" class="menu-banner-title"><span>Bestseller</span></a>
                                                         </li>
                                                         <li class="menu-banner">
-                                                            <a href="grid-list.html" class="menu-banner-img"><img src="image/menu-banner02.jpg" alt="menu-image" class="img-fluid"></a>
+                                                            <a href="grid-list.html" class="menu-banner-img"><img src="{{asset('image/menu-banner02.jpg')}}" alt="menu-image" class="img-fluid"></a>
                                                             <a href="grid-list.html" class="menu-banner-title"><span>Special product</span></a>
                                                         </li>
                                                         <li class="menu-banner">
-                                                            <a href="grid-list.html" class="menu-banner-img"><img src="image/menu-banner03.jpg" alt="mneu image" class="img-fluid"></a>
+                                                            <a href="grid-list.html" class="menu-banner-img"><img src="{{asset('image/menu-banner03.jpg')}}" alt="mneu image" class="img-fluid"></a>
                                                             <a href="grid-list.html" class="menu-banner-title"><span>Featured product</span></a>
                                                         </li>
                                                     </ul>
@@ -779,7 +779,7 @@
                                     <!-- megamenu end -->
                                     <!-- hotline start -->
                                     <div class="hotline">
-                                        <a href="javascript:void(0)"><img src="image/hot-image.png" class="img-fluid" alt="image-icon"></a>
+                                        <a href="javascript:void(0)"><img src="{{asset('image/hot-image.png')}}" class="img-fluid" alt="image-icon"></a>
                                         <div class="image-content">
                                             <span class="hot-l">Hotline:</span>
                                             <span>0123 456 789</span>
@@ -948,15 +948,15 @@
                                                         </a>
                                                         <ul class="dropdown-submenu banner-menu collapse" id="collapse-banner-menu">
                                                             <li class="menu-banner">
-                                                                <a href="grid-list.html" class="menu-banner-img"><img src="image/menu-banner01.jpg" alt="menu-image" class="img-fluid"></a>
+                                                                <a href="grid-list.html" class="menu-banner-img"><img src="{{asset('image/menu-banner01.jpg')}}" alt="menu-image" class="img-fluid"></a>
                                                                 <a href="grid-list.html" class="menu-banner-title"><span>Bestseller</span></a>
                                                             </li>
                                                             <li class="menu-banner">
-                                                                <a href="grid-list.html" class="menu-banner-img"><img src="image/menu-banner02.jpg" alt="menu-image" class="img-fluid"></a>
+                                                                <a href="grid-list.html" class="menu-banner-img"><img src="{{asset('image/menu-banner02.jpg')}}" alt="menu-image" class="img-fluid"></a>
                                                                 <a href="grid-list.html" class="menu-banner-title"><span>Special product</span></a>
                                                             </li>
                                                             <li class="menu-banner">
-                                                                <a href="grid-list.html" class="menu-banner-img"><img src="image/menu-banner03.jpg" alt="mneu image" class="img-fluid"></a>
+                                                                <a href="grid-list.html" class="menu-banner-img"><img src="{{asset('image/menu-banner03.jpg')}}" alt="mneu image" class="img-fluid"></a>
                                                                 <a href="grid-list.html" class="menu-banner-title"><span>Featured product</span></a>
                                                             </li>
                                                         </ul>
@@ -1360,7 +1360,7 @@
                     <li class="cart-item">
                         <div class="cart-img">
                             <a href="product-style-3.html">
-                                <img src="image/cart-img.jpg" alt="cart-image" class="img-fluid">
+                                <img src="{{asset('image/cart-img.jpg')}}" alt="cart-image" class="img-fluid">
                             </a>
                         </div>
                         <div class="cart-title">
@@ -1379,7 +1379,7 @@
                     <li class="cart-item">
                         <div class="cart-img">
                             <a href="product-style-3.html">
-                                <img src="image/cart-img02.jpg" alt="cart-image" class="img-fluid">
+                                <img src="{{asset('image/cart-img02.jpg')}}" alt="cart-image" class="img-fluid">
                             </a>
                         </div>
                         <div class="cart-title">
@@ -1398,7 +1398,7 @@
                     <li class="cart-item">
                         <div class="cart-img">
                             <a href="product-style-3.html">
-                                <img src="image/cart-img03.jpg" alt="cart-image" class="img-fluid">
+                                <img src="{{asset('image/cart-img03.jpg')}}" alt="cart-image" class="img-fluid">
                             </a>
                         </div>
                         <div class="cart-title">
@@ -1417,7 +1417,7 @@
                     <li class="cart-item">
                         <div class="cart-img">
                             <a href="product-style-3.html">
-                                <img src="image/cart-img04.jpg" alt="cart-image" class="img-fluid">
+                                <img src="{{asset('image/cart-img04.jpg')}}" alt="cart-image" class="img-fluid">
                             </a>
                         </div>
                         <div class="cart-title">
@@ -1503,7 +1503,7 @@
                         <div class="left-banner">
                             <div class="l-banner">
                                 <a href="javascript:void(0)">
-                                    <img src="image/left-banner.jpg" class="img-fluid" alt="left-banner">
+                                    <img src="{{asset('image/left-banner.jpg')}}" class="img-fluid" alt="left-banner">
                                 </a>
                                 <div class="left-banner-content">
                                     <span>Pure and natural</span>
@@ -1525,8 +1525,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-4.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-04.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-4.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-04.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1550,8 +1550,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-7.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-07.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-7.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-07.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1576,8 +1576,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-3.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-03.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-3.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-03.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1602,8 +1602,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-1.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-01.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-1.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-01.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1627,8 +1627,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-5.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-05.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-5.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-05.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1652,8 +1652,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-6.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-06.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-6.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-06.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1678,8 +1678,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-7.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-07.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-7.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-07.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1703,8 +1703,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-8.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-08.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-8.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-08.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1728,8 +1728,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-9.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-09.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-9.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-09.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1754,8 +1754,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-10.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-010.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-10.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-010.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1779,8 +1779,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-4.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-04.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-4.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-04.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1804,8 +1804,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-7.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-07.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-7.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-07.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1830,8 +1830,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-3.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-03.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-3.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-03.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1855,8 +1855,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-1.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-01.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-1.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-01.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1919,7 +1919,7 @@
                         <div class="left-banner section1-t-padding">
                             <div class="l-banner">
                                 <a href="javascript:void(0)">
-                                    <img src="image/left-banner2.jpg" class="img-fluid" alt="left-banner">
+                                    <img src="{{asset('image/left-banner2.jpg')}}" class="img-fluid" alt="left-banner">
                                 </a>
                                 <div class="left-banner-content">
                                     <span>Fresh food</span>
@@ -1942,8 +1942,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-4.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-04.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-4.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-04.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1967,8 +1967,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-7.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-07.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-7.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-07.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1993,8 +1993,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-3.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-03.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-3.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-03.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2019,8 +2019,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-1.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-01.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-1.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-01.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2044,8 +2044,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-5.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-05.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-5.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-05.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2070,8 +2070,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-6.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-06.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-6.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-06.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2096,8 +2096,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-7.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-07.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-7.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-07.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2121,8 +2121,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-8.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-08.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-8.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-08.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2146,8 +2146,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-9.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-09.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-9.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-09.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2171,8 +2171,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-10.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-010.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-10.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-010.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2196,8 +2196,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-4.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-04.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-4.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-04.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2221,8 +2221,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-7.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-07.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-7.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-07.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2247,8 +2247,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-3.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-03.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-3.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-03.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2273,8 +2273,8 @@
                                             <div class="tred-pro">
                                                 <div class="tr-pro-img">
                                                     <a href="product-style-3.html">
-                                                        <img src="image/pro/pro-img-1.jpg" alt="pro-img1" class="img-fluid">
-                                                        <img src="image/pro/pro-img-01.jpg" alt="additional image" class="img-fluid additional-image">
+                                                        <img src="{{asset('image/pro/pro-img-1.jpg')}}" alt="pro-img1" class="img-fluid">
+                                                        <img src="{{asset('image/pro/pro-img-01.jpg')}}" alt="additional image" class="img-fluid additional-image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -2313,28 +2313,28 @@
                             </div>
                             <div class="home3-brand owl-carousel owl-theme">
                                 <div class="items">
-                                    <img src="image/brand/home-123/l1.png" class="img-fluid" alt="brand-image">
+                                    <img src="{{asset('image/brand/home-123/l1.png')}}" class="img-fluid" alt="brand-image">
                                 </div>
                                 <div class="items">
-                                    <img src="image/brand/home-123/l2.png" class="img-fluid" alt="brand-image">
+                                    <img src="{{asset('image/brand/home-123/l2.png')}}" class="img-fluid" alt="brand-image">
                                 </div>
                                 <div class="items">
-                                    <img src="image/brand/home-123/l3.png" class="img-fluid" alt="brand-image">
+                                    <img src="{{asset('image/brand/home-123/l3.png')}}" class="img-fluid" alt="brand-image">
                                 </div>
                                 <div class="items">
-                                    <img src="image/brand/home-123/l4.png" class="img-fluid" alt="brand-image">
+                                    <img src="{{asset('image/brand/home-123/l4.png')}}" class="img-fluid" alt="brand-image">
                                 </div>
                                 <div class="items">
-                                    <img src="image/brand/home-123/l5.png" class="img-fluid" alt="brand-image">
+                                    <img src="{{asset('image/brand/home-123/l5.png')}}" class="img-fluid" alt="brand-image">
                                 </div>
                                 <div class="items">
-                                    <img src="image/brand/home-123/l6.png" class="img-fluid" alt="brand-image">
+                                    <img src="{{asset('image/brand/home-123/l6.png')}}" class="img-fluid" alt="brand-image">
                                 </div>
                                 <div class="items">
-                                    <img src="image/brand/home-123/l7.png" class="img-fluid" alt="brand-image">
+                                    <img src="{{asset('image/brand/home-123/l7.png')}}" class="img-fluid" alt="brand-image">
                                 </div>
                                 <div class="items">
-                                    <img src="image/brand/home-123/l8.png" class="img-fluid" alt="brand-image">
+                                    <img src="{{asset('image/brand/home-123/l8.png')}}" class="img-fluid" alt="brand-image">
                                 </div>
                             </div>
                         </div>
@@ -2349,84 +2349,84 @@
                                         <div class="tab-pane fade" id="image-11">
                                             <a href="javascript:void(0)" class="long-img">
                                                 <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(image/pro-page-image/pro-page-image.jpg)">
-                                                    <img src="image/pro-page-image/pro-page-image.jpg" class="img-fluid" alt="image">
+                                                    <img src="{{asset('image/pro-page-image/pro-page-image.jpg')}}" class="img-fluid" alt="image">
                                                 </figure>
                                             </a>
                                         </div>
                                         <div class="tab-pane fade" id="image-22">
                                             <a href="javascript:void(0)" class="long-img">
                                                 <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(image/pro-page-image/prro-page-image01.jpg)">
-                                                    <img src="image/pro-page-image/prro-page-image01.jpg" class="img-fluid" alt="image">
+                                                    <img src="{{asset('image/pro-page-image/prro-page-image01.jpg')}}" class="img-fluid" alt="image">
                                                 </figure>
                                             </a>
                                         </div>
                                         <div class="tab-pane fade show active" id="image-33">
                                             <a href="javascript:void(0)" class="long-img">
                                                 <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(image/pro-page-image/pro-page-image1-1.jpg)">
-                                                    <img src="image/pro-page-image/pro-page-image1-1.jpg" class="img-fluid" alt="image">
+                                                    <img src="{{asset('image/pro-page-image/pro-page-image1-1.jpg')}}" class="img-fluid" alt="image">
                                                 </figure>
                                             </a>
                                         </div>
                                         <div class="tab-pane fade" id="image-44">
                                             <a href="javascript:void(0)" class="long-img">
                                                 <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(image/pro-page-image/pro-page-image1.jpg)">
-                                                    <img src="image/pro-page-image/pro-page-image1.jpg" class="img-fluid" alt="image">
+                                                    <img src="{{asset('image/pro-page-image/pro-page-image1.jpg')}}" class="img-fluid" alt="image">
                                                 </figure>
                                             </a>
                                         </div>
                                         <div class="tab-pane fade" id="image-55">
                                             <a href="javascript:void(0)" class="long-img">
                                                 <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(image/pro-page-image/pro-page-image2.jpg)">
-                                                    <img src="image/pro-page-image/pro-page-image2.jpg" class="img-fluid" alt="image">
+                                                    <img src="{{asset('image/pro-page-image/pro-page-image2.jpg')}}" class="img-fluid" alt="image">
                                                 </figure>
                                             </a>
                                         </div>
                                         <div class="tab-pane fade" id="image-66">
                                             <a href="javascript:void(0)" class="long-img">
                                                 <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(image/pro-page-image/pro-page-image2-2.jpg)">
-                                                    <img src="image/pro-page-image/pro-page-image2-2.jpg" class="img-fluid" alt="image">
+                                                    <img src="{{asset('image/pro-page-image/pro-page-image2-2.jpg')}}" class="img-fluid" alt="image">
                                                 </figure>
                                             </a>
                                         </div>
                                         <div class="tab-pane fade" id="image-77">
                                             <a href="javascript:void(0)" class="long-img">
                                                 <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(image/pro-page-image/pro-page-image3.jpg)">
-                                                    <img src="image/pro-page-image/pro-page-image3.jpg" class="img-fluid" alt="image">
+                                                    <img src="{{asset('image/pro-page-image/pro-page-image3.jpg')}}" class="img-fluid" alt="image">
                                                 </figure>
                                             </a>
                                         </div>
                                         <div class="tab-pane fade" id="image-88">
                                             <a href="javascript:void(0)" class="long-img">
                                                 <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(image/pro-page-image/pro-page-image03.jpg)">
-                                                    <img src="image/pro-page-image/pro-page-image03.jpg" class="img-fluid" alt="image">
+                                                    <img src="{{asset('image/pro-page-image/pro-page-image03.jpg')}}" class="img-fluid" alt="image">
                                                 </figure>
                                             </a>
                                         </div>
                                     </div>
                                     <ul class="nav nav-tabs pro-page-slider owl-carousel owl-theme">
                                         <li class="nav-item items">
-                                            <a class="nav-link active" data-bs-toggle="tab" href="#image-11"><img src="image/pro-page-image/image1.jpg" class="img-fluid" alt="image"></a>
+                                            <a class="nav-link active" data-bs-toggle="tab" href="#image-11"><img src="{{asset('image/pro-page-image/image1.jpg')}}" class="img-fluid" alt="image"></a>
                                         </li>
                                         <li class="nav-item items">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#image-22"><img src="image/pro-page-image/image2.jpg" class="img-fluid" alt="iamge"></a>
+                                            <a class="nav-link" data-bs-toggle="tab" href="#image-22"><img src="{{asset('image/pro-page-image/image2.jpg')}}" class="img-fluid" alt="iamge"></a>
                                         </li>
                                         <li class="nav-item items">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#image-33"><img src="image/pro-page-image/image3.jpg" class="img-fluid" alt="image"></a>
+                                            <a class="nav-link" data-bs-toggle="tab" href="#image-33"><img src="{{asset('image/pro-page-image/image3.jpg')}}" class="img-fluid" alt="image"></a>
                                         </li>
                                         <li class="nav-item items">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#image-44"><img src="image/pro-page-image/image4.jpg" class="img-fluid" alt="image"></a>
+                                            <a class="nav-link" data-bs-toggle="tab" href="#image-44"><img src="{{asset('image/pro-page-image/image4.jpg')}}" class="img-fluid" alt="image"></a>
                                         </li>
                                         <li class="nav-item items">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#image-55"><img src="image/pro-page-image/image5.jpg" class="img-fluid" alt="image"></a>
+                                            <a class="nav-link" data-bs-toggle="tab" href="#image-55"><img src="{{asset('image/pro-page-image/image5.jpg')}}" class="img-fluid" alt="image"></a>
                                         </li>
                                         <li class="nav-item items">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#image-66"><img src="image/pro-page-image/image6.jpg" class="img-fluid" alt="image"></a>
+                                            <a class="nav-link" data-bs-toggle="tab" href="#image-66"><img src="{{asset('image/pro-page-image/image6.jpg')}}" class="img-fluid" alt="image"></a>
                                         </li>
                                         <li class="nav-item items">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#image-77"><img src="image/pro-page-image/image8.jpg" class="img-fluid" alt="image"></a>
+                                            <a class="nav-link" data-bs-toggle="tab" href="#image-77"><img src="{{asset('image/pro-page-image/image8.jpg')}}" class="img-fluid" alt="image"></a>
                                         </li>
                                         <li class="nav-item items">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#image-88"><img src="image/pro-page-image/image7.jpg" class="img-fluid" alt="image"></a>
+                                            <a class="nav-link" data-bs-toggle="tab" href="#image-88"><img src="{{asset('image/pro-page-image/image7.jpg')}}" class="img-fluid" alt="image"></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -2479,7 +2479,7 @@
                                     </div>
                                     <div class="pro-btn">
                                         <a href="wishlist.html"><i class="fa fa-heart"></i></a>
-                                        <a href="{{route('vegist.cart')}}"><i class="fa fa-shopping-bag"></i> Add to cart</a>
+                                        <a href="cart-3.html"><i class="fa fa-shopping-bag"></i> Add to cart</a>
                                         <a href="checkout-3.html">Buy now</a>
                                     </div>
                                     <div class="share">
@@ -2493,7 +2493,7 @@
                                     </div>
                                     <div class="pay-img">
                                         <a href="checkout-3.html">
-                                            <img src="image/pay-image.jpg" class="img-fluid" alt="pay-image">
+                                            <img src="{{asset('image/pay-image.jpg')}}" class="img-fluid" alt="pay-image">
                                         </a>
                                     </div>
                                 </div>
@@ -3087,8 +3087,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-1.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-01.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-1.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-01.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3118,8 +3118,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-2.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-02.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-2.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-02.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3149,8 +3149,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-3.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-03.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-3.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-03.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3181,8 +3181,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-4.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-04.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-4.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-04.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3212,8 +3212,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-5.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-05.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-5.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-05.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3244,8 +3244,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-6.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-06.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-6.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-06.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3276,8 +3276,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-7.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-07.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-7.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-07.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3308,8 +3308,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-8.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-08.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-8.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-08.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3339,8 +3339,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-9.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-09.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-9.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-09.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3371,8 +3371,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-10.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-010.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-10.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-010.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3402,8 +3402,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-11.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-011.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-11.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-011.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3433,8 +3433,8 @@
                                     <div class="tred-pro">
                                         <div class="tr-pro-img">
                                             <a href="product-style-3.html">
-                                                <img class="img-fluid" src="image/pro/pro-img-12.jpg" alt="pro-img1">
-                                                <img class="img-fluid additional-image" src="image/pro/pro-img-012.jpg" alt="additional image">
+                                                <img class="img-fluid" src="{{asset('image/pro/pro-img-12.jpg')}}" alt="pro-img1">
+                                                <img class="img-fluid additional-image" src="{{asset('image/pro/pro-img-012.jpg')}}" alt="additional image">
                                             </a>
                                         </div>
                                         <div class="Pro-lable">
@@ -3483,69 +3483,69 @@
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="image-1">
                                         <a href="javascript:void(0)" class="long-img">
-                                            <img src="image/pro-page-image/pro-page-image.jpg" class="img-fluid" alt="image">
+                                            <img src="{{asset('image/pro-page-image/pro-page-image.jpg')}}" class="img-fluid" alt="image">
                                         </a>
                                     </div>
                                     <div class="tab-pane fade show" id="image-2">
                                         <a href="javascript:void(0)" class="long-img">
-                                            <img src="image/pro-page-image/prro-page-image01.jpg" class="img-fluid" alt="image">
+                                            <img src="{{asset('image/pro-page-image/prro-page-image01.jpg')}}" class="img-fluid" alt="image">
                                         </a>
                                     </div>
                                     <div class="tab-pane fade show" id="image-3">
                                         <a href="javascript:void(0)" class="long-img">
-                                            <img src="image/pro-page-image/pro-page-image1-1.jpg" class="img-fluid" alt="image">
+                                            <img src="{{asset('image/pro-page-image/pro-page-image1-1.jpg')}}" class="img-fluid" alt="image">
                                         </a>
                                     </div>
                                     <div class="tab-pane fade show" id="image-4">
                                         <a href="javascript:void(0)" class="long-img">
-                                            <img src="image/pro-page-image/pro-page-image1.jpg" class="img-fluid" alt="image">
+                                            <img src="{{asset('image/pro-page-image/pro-page-image1.jpg')}}" class="img-fluid" alt="image">
                                         </a>
                                     </div>
                                     <div class="tab-pane fade show" id="image-5">
                                         <a href="javascript:void(0)" class="long-img">
-                                            <img src="image/pro-page-image/pro-page-image2.jpg" class="img-fluid" alt="image">
+                                            <img src="{{asset('image/pro-page-image/pro-page-image2.jpg')}}" class="img-fluid" alt="image">
                                         </a>
                                     </div>
                                     <div class="tab-pane fade show" id="image-6">
                                         <a href="javascript:void(0)" class="long-img">
-                                            <img src="image/pro-page-image/pro-page-image2-2.jpg" class="img-fluid" alt="image">
+                                            <img src="{{asset('image/pro-page-image/pro-page-image2-2.jpg')}}" class="img-fluid" alt="image">
                                         </a>
                                     </div>
                                     <div class="tab-pane fade show" id="image-7">
                                         <a href="javascript:void(0)" class="long-img">
-                                            <img src="image/pro-page-image/pro-page-image3.jpg" class="img-fluid" alt="image">
+                                            <img src="{{asset('image/pro-page-image/pro-page-image3.jpg')}}" class="img-fluid" alt="image">
                                         </a>
                                     </div>
                                     <div class="tab-pane fade show" id="image-8">
                                         <a href="javascript:void(0)" class="long-img">
-                                            <img src="image/pro-page-image/pro-page-image03.jpg" class="img-fluid" alt="image">
+                                            <img src="{{asset('image/pro-page-image/pro-page-image03.jpg')}}" class="img-fluid" alt="image">
                                         </a>
                                     </div>
                                 </div>
                                 <ul class="nav nav-tabs quick-slider owl-carousel owl-theme">
                                     <li class="nav-item items">
-                                        <a class="nav-link active" data-bs-toggle="tab" href="#image-1"><img src="image/pro-page-image/image1.jpg" class="img-fluid" alt="image"></a>
+                                        <a class="nav-link active" data-bs-toggle="tab" href="#image-1"><img src="{{asset('image/pro-page-image/image1.jpg')}}" class="img-fluid" alt="image"></a>
                                     </li>
                                     <li class="nav-item items">
-                                        <a class="nav-link" data-bs-toggle="tab" href="#image-2"><img src="image/pro-page-image/image2.jpg" class="img-fluid" alt="iamge"></a>
+                                        <a class="nav-link" data-bs-toggle="tab" href="#image-2"><img src="{{asset('image/pro-page-image/image2.jpg')}}" class="img-fluid" alt="iamge"></a>
                                     </li>
                                     <li class="nav-item items">
-                                        <a class="nav-link" data-bs-toggle="tab" href="#image-3"><img src="image/pro-page-image/image3.jpg" class="img-fluid" alt="image"></a>
+                                        <a class="nav-link" data-bs-toggle="tab" href="#image-3"><img src="{{asset('image/pro-page-image/image3.jpg')}}" class="img-fluid" alt="image"></a>
                                     </li>
                                     <li class="nav-item items">
-                                        <a class="nav-link" data-bs-toggle="tab" href="#image-4"><img src="image/pro-page-image/image4.jpg" class="img-fluid" alt="image"></a>
+                                        <a class="nav-link" data-bs-toggle="tab" href="#image-4"><img src="{{asset('image/pro-page-image/image4.jpg')}}" class="img-fluid" alt="image"></a>
                                     </li>
                                     <li class="nav-item items">
-                                        <a class="nav-link" data-bs-toggle="tab" href="#image-5"><img src="image/pro-page-image/image5.jpg" class="img-fluid" alt="image"></a>
+                                        <a class="nav-link" data-bs-toggle="tab" href="#image-5"><img src="{{asset('image/pro-page-image/image5.jpg')}}" class="img-fluid" alt="image"></a>
                                     </li>
                                     <li class="nav-item items">
-                                        <a class="nav-link" data-bs-toggle="tab" href="#image-6"><img src="image/pro-page-image/image6.jpg" class="img-fluid" alt="image"></a>
+                                        <a class="nav-link" data-bs-toggle="tab" href="#image-6"><img src="{{asset('image/pro-page-image/image6.jpg')}}" class="img-fluid" alt="image"></a>
                                     </li>
                                     <li class="nav-item items">
-                                        <a class="nav-link" data-bs-toggle="tab" href="#image-7"><img src="image/pro-page-image/image8.jpg" class="img-fluid" alt="image"></a>
+                                        <a class="nav-link" data-bs-toggle="tab" href="#image-7"><img src="{{asset('image/pro-page-image/image8.jpg')}}" class="img-fluid" alt="image"></a>
                                     </li>
                                     <li class="nav-item items">
-                                        <a class="nav-link" data-bs-toggle="tab" href="#image-8"><img src="image/pro-page-image/image7.jpg" class="img-fluid" alt="image"></a>
+                                        <a class="nav-link" data-bs-toggle="tab" href="#image-8"><img src="{{asset('image/pro-page-image/image7.jpg')}}" class="img-fluid" alt="image"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -3599,7 +3599,7 @@
                                 <ul class="footer-ul">
                                     <li class="footer-li footer-logo">
                                         <a href="index3.html">
-                                            <img class="img-fluid" src="image/logo2.png" alt="">
+                                            <img class="img-fluid" src="{{asset('image/logo2.png')}}" alt="">
                                         </a>
                                     </li>
                                     <li class="footer-li footer-address">
@@ -3723,7 +3723,7 @@
                                 <p>Copyright <i class="fa fa-copyright"></i> 2021 spacingtech rights reserved</p>
                             </li>
                             <li class="f-c f-payment">
-                                <a href="checkout-3.html"><img src="image/payment.png" class="img-fluid" alt="payment image"></a>
+                                <a href="checkout-3.html"><img src="{{asset('image/payment.png')}}" class="img-fluid" alt="payment image"></a>
                             </li>
                         </ul>
                     </div>
@@ -3748,18 +3748,18 @@
               zoomer.style.backgroundPosition = x + '% ' + y + '%';
             }
         </script>
-        <script src="js/modernizr-2.8.3.min.js"></script>
+        <script src="{{asset('js/modernizr-2.8.3.min.js')}}"></script>
         <!-- jquery -->
-        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="{{asset('js/jquery-3.6.0.min.js')}}"></script>
         <!-- bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="{{asset('js/bootstrap.min.js')}}"></script>
         <!-- popper -->
-        <script src="js/popper.min.js"></script>
+        <script src="{{asset('js/popper.min.js')}}"></script>
         <!-- owl carousal -->
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/fontawesome.min.js"></script>
-        <script src="js/swiper.min.js"></script>
+        <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+        <script src="{{asset('js/fontawesome.min.js')}}"></script>
+        <script src="{{asset('js/swiper.min.js')}}"></script>
         <!-- custom -->
-        <script src="js/custom.js"></script>
+        <script src="{{asset('js/custom.js')}}"></script>
     </body>
 </html>
