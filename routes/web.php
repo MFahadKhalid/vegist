@@ -15,7 +15,7 @@ use App\Http\Controllers\DetailController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('vegist.home');
 })->name('index');
 
 Route::get('vegist/detail',[DetailController:: class , 'detail'])->name('vegist.detail');
